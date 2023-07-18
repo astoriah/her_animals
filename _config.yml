@@ -30,7 +30,7 @@ twitter_username: her_animals
 github_username:  her_animals
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 remote_theme: benbalter/retlab
 plugins:
   - jekyll-remote-theme
