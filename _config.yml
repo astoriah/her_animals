@@ -31,7 +31,7 @@ github_username:  her_animals
 
 # Build settings
 # theme: minimal-mistakes-jekyll
-remote_theme: benbalter/retlab
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
