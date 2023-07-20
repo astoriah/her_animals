@@ -2,6 +2,12 @@
 main:
   - title: "Flora"
     url: "/flora/"
+  - title: "Fauna"
+    url: "/fauna/"
+  - title: "Flavor"
+    url: "/flavor/"
+  # - title: "Archive"
+  #   url: "/archive/"
   - title: "About"
     url: "/about/"
 

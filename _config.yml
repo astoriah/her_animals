@@ -17,14 +17,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: "en-US"
 
 title: Her Animals
+
+title_separator: "|"
+name: "Astoria Ho"
+repository: "astoriah/her_animals"
+
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-#baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "/her-animals" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: her_animals
 github_username:  her_animals
@@ -39,22 +45,30 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate
 
-locale: "en-US"
-
 timezone: America/Los_Angeles
 
 include: ["_pages"]
 
 #paginate: 10
 
-title_separator: "|"
-name: "Astoria"
-repository: "astoriah/her_animals"
+author: 
+  name: "Astoria"
+  avatar: /images/memoji.png 
+  bio: "My hobby farming journey in the Pacific Northwest!"
+  # location: "Washington"
+  links:
+    - label: "@Her_Animals"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/her_animals"
+
+atom_feed: 
+  path: 
+  hide: true 
 
 #site footer
 footer:
   links:
-    - label: "Instagram"
+    - label: "@her_animals"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/her_animals"
 
@@ -75,10 +89,10 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   #_posts
   - scope: 
-      path: ""
+      path: "/:slugified_categories/:year/:month/:day/:title"
       type: posts
     values: 
       layout: single
