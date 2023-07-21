@@ -23,7 +23,7 @@ title: Her Animals
 
 title_separator: "|"
 name: "Astoria Ho"
-repository: "astoriah/her_animals"
+#repository: "astoriah/her_animals"
 
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -31,9 +31,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 #baseurl: "/her-animals" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: her_animals
-github_username:  her_animals
+url: "http://heranimals.com" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: her_animals
+#github_username:  her_animals
 
 # Site settings
 # theme: minimal-mistakes-jekyll
@@ -44,10 +44,13 @@ plugins:
   - jekyll-include-cache
   - jekyll-redirect-from
   - jekyll-paginate
+  - jekyll-sitemap
 
 timezone: America/Los_Angeles
 
-include: ["_pages"]
+include: [
+  "_pages"
+]
 
 #paginate: 10
 
@@ -80,43 +83,6 @@ collections:
   flavor: 
     output: true
     permalink: /:collection/:path 
-
-#defaults 
-defaults: 
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-  #_posts
-  - scope: 
-      path: "/:slugified_categories/:year/:month/:day/:title"
-      type: posts
-    values: 
-      layout: single
-      show_date: true
-      author_profile: true
-   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
-
-
-#google_site_verification: "yourverificationcode"
-#https://support.google.com/analytics/answer/1142414?hl=en
-
-# analytics:
-#   provider: "google-gtag"
-#   google:
-#     tracking_id: "UA-1234567-8"
-#     anonymize_ip: false # default
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -154,3 +120,33 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+#ANALYTICS
+
+#google_site_verification: "yourverificationcode"
+#https://support.google.com/analytics/answer/1142414?hl=en
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-CB5LDEPDT0"
+    anonymize_ip: true # default
+
+#defaults 
+defaults: 
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  #_posts
+  - scope:
+      path: "/:year/:title"
+      type: posts
+    values: 
+      layout: single
+      show_date: true
+      author_profile: true
+      related: true

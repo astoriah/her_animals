@@ -4,13 +4,13 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#8A9C9F"
-  overlay_image: /images/header1.png
+  overlay_image: /images/header3.png
   # actions:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: "/docs/quick-start-guide/"
 excerpt: >
   <p>Astoria's hobby farming journey in the Pacific Northwest</p><br>
-  <small>On pygmy goats, aging pets, gardening, nature, and more </small> 
+  <small>On pygmy goats, aging pets, gardening, nature, and more </small><br> 
 
 intro: 
   - excerpt: 'What Her Animals is About'
@@ -66,7 +66,7 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro" type="center" %} -->
 
 {% include feature_row %}
 
