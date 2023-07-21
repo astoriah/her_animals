@@ -5,6 +5,6 @@
 - Fauna: Caring for livestock and pets 
 - Flavor: Food, Recipes
 
-Live at [(http://www.heranimals.com/)](http://www.heranimals.com/)(URL){:target="_blank"}
+Live at [http://www.heranimals.com/](http://www.heranimals.com/)
   
 ![Header Image](images/header1.png)
