@@ -5,25 +5,25 @@ permalink: /fauna/
 classes: wide
 
 feature_row:
-  - image_path: /images/flora.png
-    alt: "flora"
-    title: "Flora"
-    excerpt: "What's in my veggie patch? Reforesting our land and PNW nature explorations."
-    url: "/flora/"
+  - image_path: /images/teaser/fauna-cat.png
+    alt: "Fauna Header Image"
+    title: "Meet Her Animals"
+    excerpt: "Who is living on the farm right now? Meet Astoria's Animals"
+    url: "/2023/meet-her-animals/"
     btn_class: "btn--primary"
     btn_label: "Read"
   - image_path: /images/fauna.png
-    alt: "fauna"
-    title: "Fauna"
-    excerpt: "How do we best care for our aging livestock? Raising pygmy goats, rabbits, dogs, and cats."
-    url: "/docs/layouts/"
+    alt: "Fauna Header Image"
+    title: "Pygmy Goat Arthritis"
+    excerpt: "Artemis, my oldest goat, turned 11 this year and she is beginning to show symptoms of arthritis."
+    url: "2023/pygmy-goat-arthritis/"
     btn_class: "btn--primary"
     btn_label: "Read"
-  - image_path: /images/flavor.png
-    alt: "flavor"
-    title: "Flavor"
-    excerpt: "What's cooking? My favorite recipes to cook and bake."
-    url: "/docs/license/"
+  - image_path: /images/teaser/fauna-sheep.png
+    alt: "Flora Header Image"
+    title: "Flora Post 3"
+    excerpt: "Excerpt"
+    url: "#test-link"
     btn_class: "btn--primary"
     btn_label: "Read" 
 

@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Astoria and Her Animals"
 excerpt: "Her Animals is a blog about hobby farming, raising pygmy goats, and gardening."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
@@ -12,25 +12,29 @@ layouts_gallery:
   - url: /assets/images/mm-layout-archive.png
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
-last_modified_at: 2022-05-27T11:59:26-04:00
+last_modified_at: 2023-07-25
 toc: false
 ---
 
 <!-- {% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %} -->
 
+Her Animals is a blog about hobby farming, raising pygmy goats, and gardening.  
+
+Astoria grew up in California and moved to Washington State in 2022. She currently has 6 pygmy goats, 2 dogs, 1 cat, and 2 rabbits.
+
 <figure>
-	<a href="/images/fauna.png"><img src="/images/fauna.png"></a>
-	<figcaption><a href="images/fauna.png" title="Fauna">Single Image</a>.</figcaption>
+	<a href="/images/astoria/Astoria2022.png"><img src="/images/astoria/Astoria2022.png"></a>
+	<!-- <figcaption><a href="images/astoria/Astoria2022.png" title="Astoria Ho"></a>.</figcaption> -->
 </figure>
 
-Her Animals is a blog about hobby farming, raising pygmy goats, and gardening. 
+Growing up, Astoria was apart of 4-H where she raised and showed pygmy goats, sheep, rabbits, chickens, cavies, and dogs. She also volunteered at the Wildlife Center of Silicon Valley and Deer Hollow Farm.
 
-Astoria grew up in California and moved to Washington State in 2021. She currently has 6 pygmy goats, 2 dogs, 1 cat, and 2 rabbits.
-
+Through this blog, she hopes to share her experience raising pygmy goats and caring for aging animals.
+ 
 <figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
+	<a href="/images/goats/PygmyGoat_Kiki_Artemis.png"><img src="/images/goats/PygmyGoat_Kiki_Artemis.png"></a>
+	<a href="/images/goats/pygmygoats.png"><img src="/images/goats/pygmygoats.png"></a>
+	<figcaption>Astoria's Animals.</figcaption>
 </figure>
 
 <!-- [Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large} -->

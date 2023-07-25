@@ -38,21 +38,21 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Read" 
 
-feature_row2:
-  - image_path: /images/flora.png
-    alt: "flora"
-    title: "My Garden Journal"
-    excerpt: 'What is growing in my garden right now.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-
 feature_row3:
   - image_path: /images/fauna.png
     alt: "fauna"
     title: "Meet Astoria's Animals"
     excerpt: 'Who is currently living on the farm'
-    url: "/her%20animals/2023/07/19/meet-her-animals.html"
+    url: "/2023/meet-her-animals/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row2:
+  - image_path: /images/teaser/flora2.png
+    alt: "flora"
+    title: "My Garden Journal"
+    excerpt: 'What is growing in my garden right now.'
+    url: "/flora/garden-journal-1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -61,7 +61,7 @@ feature_row4:
     alt: "placeholder image 2"
     title: "Placeholder Image Center Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "/_flora/garden-journal-1.md"
+    url: "/flora/garden-journal-1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---

@@ -17,28 +17,49 @@ Who is living on the farm right now? Meet Astoria's animals:
 
 ### Cooper
 
+Born: 2015
+
 ### Artemis
+
+Born: 2012
+
 
 ### Kiki
 
+Born: 2018
+
 ### Alfie
+
+Born: 2016
 
 ### Mae Mae 
 
+Born: 2014
+
 ### Hershey 
+
+Born: 2014
 
 ## Rabbits 
 
 ### Maybelline 
 
+Born: 2017
+
 ### Percy 
+
+Born: 2022
 
 ## Cat 
 
 ### Mickey
 
+Born: 2020
+
 ## Dogs
 
-### Max
+### Max and Ruby
 
-### Ruby 
+Born: 2013
+
+Max and Ruby were born in Taiwan and brought to the U.S. to be adopted. We adopted them when they were about 6-8 months old. We believe that they are Formosan Mountain Dog mixes.

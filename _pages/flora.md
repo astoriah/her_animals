@@ -7,25 +7,25 @@ entries_layout: grid
 classes: wide
 
 feature_row:
+  - image_path: /images/teaser/flora2.png
+    alt: "Flora Header Image"
+    title: "My Garden Journal"
+    excerpt: "What is growing in my garden right now: strawberries, tomatoes, eggplant, the three sisters"
+    url: "/flora/garden-journal-1"
+    btn_class: "btn--primary"
+    btn_label: "Read"
+  - image_path: /images/teaser/flora3.png
+    alt: "Flora Header Image"
+    title: "Weeding my Backyard of Sticky Willy"
+    excerpt: "One of the most obnoxious weeds that is growing in my backyard is the Sticky Willy (Galium aparine)."
+    url: "/flora/weeding-sticky-willy"
+    btn_class: "btn--primary"
+    btn_label: "Read"
   - image_path: /images/flora.png
-    alt: "flora"
-    title: "Flora"
-    excerpt: "What's in my veggie patch? Reforesting our land and PNW nature explorations."
-    url: "/flora/"
-    btn_class: "btn--primary"
-    btn_label: "Read"
-  - image_path: /images/fauna.png
-    alt: "fauna"
-    title: "Fauna"
-    excerpt: "How do we best care for our aging livestock? Raising pygmy goats, rabbits, dogs, and cats."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Read"
-  - image_path: /images/flavor.png
-    alt: "flavor"
-    title: "Flavor"
-    excerpt: "What's cooking? My favorite recipes to cook and bake."
-    url: "/docs/license/"
+    alt: "Flora Header Image"
+    title: "Flora Post 3"
+    excerpt: "Excerpt"
+    url: "#test-link"
     btn_class: "btn--primary"
     btn_label: "Read" 
 
